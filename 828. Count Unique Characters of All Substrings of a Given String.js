@@ -28,27 +28,24 @@
  * @return {number}
  * */
 let uniqueLetterString = (s) => {
-    let sum = 0; let count = {};
-    for(let i = 0; i < s.length; i++) {
-        for(let j = i+1; j <= s.length; j++) {
-            let substring = s.substring(i,j);
-            let unique = countUniqueChars(substring);
-            sum += unique;
+    let n = s.length;
+    let count = 0;
+    let hashmap = {}
+
+    for(let i = 0; i < 26; i++) { hashmap[i] = [-1]; }
+    for(let i = 0; i < n; i++) {
+        hashmap[s.charCodeAt(i) - 65] = [ ...hashmap[s.charCodeAt(i) - 65], i];
+    }
+    for(let i = 0; i < 26; i++) {
+        hashmap[i] = [ ...hashmap[i], n];
+    }
+    for(let i = 0; i < 26; i++) {
+        for(let j = 1; j < hashmap[i].length - 1 ; j++) {
+            count += (hashmap[i][j] - hashmap[i][j-1]) * (hashmap[i][j+1] - hashmap[i][j]);
         }
     }
-    return sum;
-}
-let countUniqueChars = (s) => {
-    let count = {}; let sum = 0;
-    for(let i = 0; i < s.length; i++) {
-        let charcount = getMapValue(count, s[i]) + 1;
-        count[s[i]] = charcount;
-    }
-    for(let i = 0; i < s.length; i++) {
-        if(getMapValue(count, s[i]) == 1) sum++;
-    }
-    return sum;
-}
-let getMapValue = (map, key) => { return map[key] || 0; }
 
-console.log(uniqueLetterString('ABA'));
+    return count;
+}
+console.log(uniqueLetterString('LEETCODE'));
+
