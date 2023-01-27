@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8b7dcbe-cb6c-4409-9ed7-d19f211f43b6" name="Changes" comment="">
-      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/common programs/factorial.js" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/common programs/palindrom.js" afterDir="false" />
       <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/common programs/factorial.js" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/common programs/factorial.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="palindrom.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/common programs/palindrom.js" working-dir="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/common programs">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.palindrom.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +65,7 @@
       <updated>1674653675435</updated>
       <workItem from="1674653676855" duration="12099000" />
       <workItem from="1674719623916" duration="9772000" />
-      <workItem from="1674795724999" duration="2281000" />
+      <workItem from="1674795724999" duration="5133000" />
     </task>
     <servers />
   </component>
