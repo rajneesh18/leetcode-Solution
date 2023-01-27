@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8b7dcbe-cb6c-4409-9ed7-d19f211f43b6" name="Changes" comment="">
-      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/common programs/palindrom.js" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/common programs/linkedlist.js" afterDir="false" />
       <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/common programs/factorial.js" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/leetcode/common programs/factorial.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +64,22 @@
       <updated>1674653675435</updated>
       <workItem from="1674653676855" duration="12099000" />
       <workItem from="1674719623916" duration="9772000" />
-      <workItem from="1674795724999" duration="5133000" />
+      <workItem from="1674795724999" duration="14914000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
